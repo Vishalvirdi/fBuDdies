@@ -37,7 +37,7 @@ const CreateUserModal = ({ setUsers }) => {
 		e.preventDefault(); 
 		setIsLoading(true);
 		try {
-			const res = await fetch(BASE_URL + "/friends", {
+			const res = await fetch("https://buddies-backend-0uzw.onrender.com/api/friends", {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

@@ -34,7 +34,7 @@ function EditModal({ setUsers, user }) {
 		e.preventDefault();
 		setIsLoading(true);
 		try {
-			const res = await fetch("https://buddies-backend-0uzw.onrender.com/api/friends/" + user.id, {
+			const res = await fetch("https://bbuddies.vercel.app/api/friends/" + user.id, {
 				method: "PATCH",
 				headers: {
 					"Content-Type": "application/json",

@@ -10,7 +10,7 @@ const UserGrid = ({ users, setUsers }) => {
 	useEffect(() => {
 		const getUsers = async () => {
 			try {
-				const res = await fetch("https://buddies-backend-0uzw.onrender.com/api/friends");
+				const res = await fetch("https://bbuddies.vercel.app/api/friends");
 				const data = await res.json();
 
 				if (!res.ok) {

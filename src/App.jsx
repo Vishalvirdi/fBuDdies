@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./compnents/HomePage";
 import ThanksPage from "./compnents/ThanksPage";
 
-export const BASE_URL = import.meta.env.MODE === "development" ? "https://buddies-backend-0uzw.onrender.com/api" : "/api";
+export const BASE_URL = import.meta.env.MODE === "development" ? "https://bbuddies.vercel.app" : "/api";
 
 
 function App() {

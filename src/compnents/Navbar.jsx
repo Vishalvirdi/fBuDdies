@@ -26,7 +26,7 @@ const Navbar = ({ setUsers }) => {
             <Text
               fontSize={"lg"}
               fontWeight={500}
-              display={{ : "none", md: "block" }}
+              display={{ base: "none", md: "block" }}
             >
               BuDdies 🔥
             </Text>
